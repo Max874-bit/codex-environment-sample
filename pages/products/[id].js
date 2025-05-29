@@ -1,8 +1,8 @@
 import { useRouter } from 'next/router'
 import Link from 'next/link'
-import products from '@/data/products'
+import products from '@data/products'
 import { useContext } from 'react'
-import { CartContext } from '@/components/CartContext'
+import { CartContext } from '@components/CartContext'
 
 export default function ProductDetail() {
   const router = useRouter()

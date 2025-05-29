@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { useContext } from 'react'
-import { CartContext } from '@/components/CartContext'
+import { CartContext } from '@components/CartContext'
 
 export default function Cart() {
   const { cartItems, removeFromCart, clearCart } = useContext(CartContext)
